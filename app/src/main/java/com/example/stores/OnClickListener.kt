@@ -5,7 +5,9 @@ package com.example.stores
  */
 interface OnClickListener {
 
-    fun OnClickListener(storeEntity: StoreEntity)
+    fun OnClickListener(storeId: Long)
 
     fun onFavoriteStore(storeEntity: StoreEntity)
+
+    fun onDeleteStore(storeEntity: StoreEntity)
 }
